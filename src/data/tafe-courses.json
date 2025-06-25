@@ -1,0 +1,291 @@
+{
+    "lastUpdated": "2025-06-25",
+    "institutions": [
+      {
+        "id": "tafe_nsw_newcastle",
+        "name": "TAFE NSW - Newcastle",
+        "location": "Newcastle City",
+        "campusAddresses": [
+          "Corner Darby & Auckland Streets, Newcastle",
+          "Tighes Hill Campus - Industrial Drive"
+        ],
+        "website": "https://www.tafensw.edu.au",
+        "contactPhone": "131 601",
+        "programs": [
+          {
+            "title": "Diploma of Information Technology",
+            "code": "ICT50220",
+            "duration": "2 years",
+            "delivery": ["Full-time", "Part-time", "Online"],
+            "cost": 8500,
+            "costPerYear": 8500,
+            "entryRequirements": "Year 12 or equivalent",
+            "specialisations": [
+              "Programming",
+              "Web Development", 
+              "Network Security",
+              "Database Design",
+              "Systems Administration"
+            ],
+            "units": [
+              "Programming Fundamentals",
+              "Web Development Technologies",
+              "Database Design and Implementation",
+              "Project Management",
+              "Cybersecurity Essentials",
+              "Industry Placement (120 hours)"
+            ],
+            "assessment": "Practical projects and workplace simulation",
+            "workIntegrated": "120 hours industry placement",
+            "careerOutcomes": [
+              "Junior Developer ($45k-$65k)",
+              "IT Support Specialist ($40k-$60k)",
+              "Web Developer ($50k-$70k)",
+              "Database Assistant ($45k-$65k)"
+            ],
+            "pathways": {
+              "toUniversity": "Advanced standing for related bachelor degrees (up to 1 year credit)",
+              "toEmployment": "Direct entry to workforce as junior IT professional"
+            },
+            "graduateEmploymentRate": 85
+          },
+          {
+            "title": "Certificate IV in Cyber Security",
+            "code": "ICT40120",
+            "duration": "1 year",
+            "delivery": ["Full-time", "Part-time", "Evening"],
+            "cost": 6500,
+            "costPerYear": 6500,
+            "entryRequirements": "Year 10 completion",
+            "specialisations": [
+              "Network Security",
+              "Incident Response",
+              "Risk Assessment",
+              "Digital Forensics",
+              "Security Compliance"
+            ],
+            "units": [
+              "Cyber Security Fundamentals",
+              "Network Security Implementation",
+              "Incident Response Procedures",
+              "Risk Management",
+              "Security Testing",
+              "Workplace Learning (80 hours)"
+            ],
+            "assessment": "Simulated cyber security scenarios",
+            "workIntegrated": "80 hours workplace learning",
+            "careerOutcomes": [
+              "Security Analyst ($50k-$75k)",
+              "IT Support Officer ($40k-$55k)",
+              "Network Technician ($45k-$65k)",
+              "Help Desk Specialist ($35k-$50k)"
+            ],
+            "pathways": {
+              "toUniversity": "Pathway to Diploma and then university",
+              "toEmployment": "Entry-level cybersecurity roles"
+            },
+            "graduateEmploymentRate": 88
+          },
+          {
+            "title": "Certificate III in Information Technology",
+            "code": "ICT30120",
+            "duration": "1 year",
+            "delivery": ["Full-time", "Part-time", "Apprenticeship"],
+            "cost": 5500,
+            "costPerYear": 5500,
+            "entryRequirements": "Year 10 completion",
+            "specialisations": [
+              "Hardware Support",
+              "Software Applications",
+              "Basic Programming",
+              "Customer Service",
+              "Network Basics"
+            ],
+            "units": [
+              "Computer Hardware Fundamentals",
+              "Software Installation and Configuration",
+              "Basic Programming Concepts",
+              "Customer Support Skills",
+              "Workplace Safety",
+              "Work Placement (60 hours)"
+            ],
+            "assessment": "Hands-on practical assessments",
+            "workIntegrated": "60 hours work placement",
+            "careerOutcomes": [
+              "IT Support Technician ($35k-$50k)",
+              "Help Desk Officer ($30k-$45k)",
+              "Computer Technician ($35k-$50k)",
+              "Retail IT Support ($30k-$40k)"
+            ],
+            "pathways": {
+              "toUniversity": "Foundation for higher qualifications",
+              "toEmployment": "Entry-level IT support roles"
+            },
+            "graduateEmploymentRate": 82
+          },
+          {
+            "title": "Advanced Diploma of Computer Science",
+            "code": "ICT60220",
+            "duration": "2.5 years",
+            "delivery": ["Full-time", "Part-time"],
+            "cost": 9500,
+            "costPerYear": 9500,
+            "entryRequirements": "Diploma or equivalent",
+            "specialisations": [
+              "Software Development",
+              "Systems Analysis",
+              "Project Management",
+              "Database Administration",
+              "Network Design"
+            ],
+            "units": [
+              "Advanced Programming",
+              "Systems Analysis and Design",
+              "Database Administration",
+              "Project Management",
+              "Network Architecture",
+              "Industry Project (200 hours)"
+            ],
+            "assessment": "Major industry-based projects",
+            "workIntegrated": "200 hours industry project",
+            "careerOutcomes": [
+              "Systems Analyst ($55k-$80k)",
+              "Software Developer ($55k-$85k)",
+              "Project Coordinator ($50k-$75k)",
+              "Database Administrator ($60k-$85k)"
+            ],
+            "pathways": {
+              "toUniversity": "Direct entry to final year of related bachelor degrees",
+              "toEmployment": "Mid-level IT roles"
+            },
+            "graduateEmploymentRate": 91
+          }
+        ],
+        "advantages": [
+          "Hands-on practical learning",
+          "Industry-standard equipment",
+          "Small class sizes",
+          "Job placement assistance",
+          "Flexible study options",
+          "Lower cost than university",
+          "Faster entry to workforce"
+        ],
+        "facilities": [
+          "Modern computer labs",
+          "Cybersecurity simulation lab",
+          "Industry-standard software",
+          "Student support services",
+          "Career counselling",
+          "Library and study spaces"
+        ],
+        "industryConnections": [
+          "Local Newcastle employers",
+          "Government agencies",
+          "Small to medium enterprises",
+          "Healthcare organisations",
+          "Financial services"
+        ]
+      },
+      {
+        "id": "tafe_nsw_sydney",
+        "name": "TAFE NSW - Sydney Institute",
+        "location": "Multiple Sydney campuses",
+        "campusAddresses": [
+          "Ultimo Campus - 645 Harris Street",
+          "Randwick Campus - 1 Anzac Parade",
+          "St George Campus - Kogarah"
+        ],
+        "website": "https://www.tafensw.edu.au",
+        "contactPhone": "131 601",
+        "programs": [
+          {
+            "title": "Diploma of Software Development",
+            "code": "ICT50220",
+            "duration": "2 years",
+            "delivery": ["Full-time", "Part-time", "Online"],
+            "cost": 8800,
+            "costPerYear": 8800,
+            "entryRequirements": "Year 12 or Certificate IV",
+            "specialisations": [
+              "Mobile App Development",
+              "Web Development",
+              "Game Development",
+              "Software Engineering",
+              "DevOps"
+            ],
+            "units": [
+              "Object-Oriented Programming",
+              "Mobile Application Development",
+              "Web Technologies",
+              "Software Testing",
+              "Agile Development",
+              "Capstone Project"
+            ],
+            "assessment": "Portfolio of developed applications",
+            "workIntegrated": "Industry capstone project",
+            "careerOutcomes": [
+              "Software Developer ($50k-$75k)",
+              "Mobile App Developer ($55k-$80k)",
+              "Web Developer ($50k-$75k)",
+              "Junior Software Engineer ($55k-$80k)"
+            ],
+            "pathways": {
+              "toUniversity": "Advanced standing up to 2 years",
+              "toEmployment": "Developer roles in tech companies"
+            },
+            "graduateEmploymentRate": 89
+          }
+        ],
+        "advantages": [
+          "City location with tech companies",
+          "Industry partnerships",
+          "Modern facilities",
+          "Evening classes available",
+          "Strong job placement rates"
+        ],
+        "facilities": [
+          "State-of-the-art development labs",
+          "Innovation centres",
+          "Industry partnerships",
+          "Career services"
+        ],
+        "industryConnections": [
+          "Major tech companies",
+          "Startups and scale-ups",
+          "Financial services",
+          "Government agencies",
+          "Consulting firms"
+        ]
+      }
+    ],
+    "pathwayInformation": {
+      "tafeToUniversity": {
+        "description": "TAFE qualifications provide pathways to university with advanced standing",
+        "benefits": [
+          "Practical skills first, theory later",
+          "Reduced university study time",
+          "Lower initial costs",
+          "Work experience before university",
+          "Easier entry requirements"
+        ],
+        "commonPathways": [
+          "Certificate IV → Diploma → University (Year 2)",
+          "Diploma → University (Year 2 or 3)",
+          "Advanced Diploma → University (Final Year)"
+        ]
+      },
+      "financialSupport": {
+        "vetStudentLoans": {
+          "description": "Government loans for TAFE courses",
+          "eligibility": "Australian citizens and permanent residents",
+          "repaymentThreshold": 47014,
+          "interestRate": "Indexed to inflation"
+        },
+        "smartAndSkilled": {
+          "description": "NSW Government subsidised training",
+          "eligibility": "NSW residents, priority groups",
+          "discount": "Up to 70% off course fees"
+        }
+      }
+    }
+  }
