@@ -19,7 +19,6 @@ export default function PathwaysPage() {
           </p>
         </div>
 
-        {/* University Section */}
         <div className="mb-12">
           <div className="flex items-center mb-6">
             <GraduationCap className="w-8 h-8 text-blue-600 mr-3" />
@@ -27,7 +26,6 @@ export default function PathwaysPage() {
           </div>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            {/* University of Newcastle */}
             <div className="bg-white rounded-xl shadow-sm border">
               <div className="p-6 border-b bg-gradient-to-r from-blue-50 to-indigo-50">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">University of Newcastle</h3>
@@ -42,67 +40,41 @@ export default function PathwaysPage() {
                 <div className="space-y-4">
                   <div className="border-l-4 border-blue-500 pl-4">
                     <h4 className="font-semibold text-gray-900">Bachelor of Computer Science</h4>
-                    <div className="flex items-center text-sm text-gray-600 mt-1 space-x-4">
-                      <div className="flex items-center">
-                        <Clock className="w-4 h-4 mr-1" />
-                        <span>3 years</span>
-                      </div>
-                      <div className="flex items-center">
-                        <Users className="w-4 h-4 mr-1" />
-                        <span>ATAR: 75-85</span>
-                      </div>
-                      <div className="flex items-center">
-                        <DollarSign className="w-4 h-4 mr-1" />
-                        <span>$10,500/year (CSP)</span>
-                      </div>
+                    <div className="text-sm text-gray-600 mt-1">
+                      <span>3 years • ATAR: 75-85 • $10,500/year (CSP)</span>
                     </div>
-                    <div className="mt-2 flex flex-wrap gap-2">
-                      <span className="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded">Software Engineering</span>
-                      <span className="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded">Cybersecurity</span>
-                      <span className="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded">Data Science</span>
+                    <div className="mt-2 text-xs text-blue-700">
+                      Software Engineering • Cybersecurity • Data Science
                     </div>
                   </div>
 
                   <div className="border-l-4 border-green-500 pl-4">
                     <h4 className="font-semibold text-gray-900">Bachelor of Information Technology</h4>
-                    <div className="flex items-center text-sm text-gray-600 mt-1 space-x-4">
-                      <div className="flex items-center">
-                        <Clock className="w-4 h-4 mr-1" />
-                        <span>3 years</span>
-                      </div>
-                      <div className="flex items-center">
-                        <Users className="w-4 h-4 mr-1" />
-                        <span>ATAR: 70-80</span>
-                      </div>
-                      <div className="flex items-center">
-                        <DollarSign className="w-4 h-4 mr-1" />
-                        <span>$10,500/year (CSP)</span>
-                      </div>
+                    <div className="text-sm text-gray-600 mt-1">
+                      <span>3 years • ATAR: 70-80 • $10,500/year (CSP)</span>
                     </div>
-                    <div className="mt-2 flex flex-wrap gap-2">
-                      <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded">Web Development</span>
-                      <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded">Network Admin</span>
-                      <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded">Mobile Apps</span>
+                    <div className="mt-2 text-xs text-green-700">
+                      Web Development • Network Administration • Mobile Apps
                     </div>
                   </div>
                 </div>
 
                 <div className="mt-6 pt-4 border-t">
-                  <div className="flex justify-between items-center">
-                    <div>
-                      <div className="text-sm text-gray-600">Contact: 1300 UON UON</div>
-                      <div className="text-sm text-blue-600">✓ Close to home ✓ Strong industry connections</div>
-                    </div>
-                    <a href="https://www.newcastle.edu.au" target="_blank" rel="noopener noreferrer" 
-                       className="text-blue-600 hover:text-blue-700 flex items-center text-sm">
-                      Visit Website <ExternalLink className="w-4 h-4 ml-1" />
-                    </a>
-                  </div>
+                  <div className="text-sm text-gray-600 mb-2">Contact: 1300 UON UON</div>
+                  <div className="text-sm text-blue-600 mb-3">Close to home • Strong industry connections</div>
+                  <a 
+                    href="https://www.newcastle.edu.au" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="text-blue-600 hover:text-blue-700 flex items-center text-sm"
+                  >
+                    Visit Website
+                    <ExternalLink className="w-4 h-4 ml-1" />
+                  </a>
                 </div>
               </div>
             </div>
 
-            {/* University of Sydney */}
             <div className="bg-white rounded-xl shadow-sm border">
               <div className="p-6 border-b bg-gradient-to-r from-purple-50 to-pink-50">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">University of Sydney</h3>
@@ -116,45 +88,32 @@ export default function PathwaysPage() {
               <div className="p-6">
                 <div className="border-l-4 border-purple-500 pl-4">
                   <h4 className="font-semibold text-gray-900">Bachelor of Computer Science</h4>
-                  <div className="flex items-center text-sm text-gray-600 mt-1 space-x-4">
-                    <div className="flex items-center">
-                      <Clock className="w-4 h-4 mr-1" />
-                      <span>3 years</span>
-                    </div>
-                    <div className="flex items-center">
-                      <Users className="w-4 h-4 mr-1" />
-                      <span>ATAR: 95+</span>
-                    </div>
-                    <div className="flex items-center">
-                      <DollarSign className="w-4 h-4 mr-1" />
-                      <span>$10,500/year (CSP)</span>
-                    </div>
+                  <div className="text-sm text-gray-600 mt-1">
+                    <span>3 years • ATAR: 95+ • $10,500/year (CSP)</span>
                   </div>
-                  <div className="mt-2 flex flex-wrap gap-2">
-                    <span className="text-xs bg-purple-100 text-purple-700 px-2 py-1 rounded">Software Engineering</span>
-                    <span className="text-xs bg-purple-100 text-purple-700 px-2 py-1 rounded">AI Research</span>
-                    <span className="text-xs bg-purple-100 text-purple-700 px-2 py-1 rounded">Cybersecurity</span>
+                  <div className="mt-2 text-xs text-purple-700">
+                    Software Engineering • AI Research • Cybersecurity
                   </div>
                 </div>
 
                 <div className="mt-6 pt-4 border-t">
-                  <div className="flex justify-between items-center">
-                    <div>
-                      <div className="text-sm text-gray-600">Contact: 1800 SYD UNI</div>
-                      <div className="text-sm text-purple-600">✓ Prestigious Go8 ✓ World-class research</div>
-                    </div>
-                    <a href="https://www.sydney.edu.au" target="_blank" rel="noopener noreferrer"
-                       className="text-purple-600 hover:text-purple-700 flex items-center text-sm">
-                      Visit Website <ExternalLink className="w-4 h-4 ml-1" />
-                    </a>
-                  </div>
+                  <div className="text-sm text-gray-600 mb-2">Contact: 1800 SYD UNI</div>
+                  <div className="text-sm text-purple-600 mb-3">Prestigious Go8 • World-class research</div>
+                  <a 
+                    href="https://www.sydney.edu.au" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-purple-600 hover:text-purple-700 flex items-center text-sm"
+                  >
+                    Visit Website
+                    <ExternalLink className="w-4 h-4 ml-1" />
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        {/* TAFE Section */}
         <div className="mb-12">
           <div className="flex items-center mb-6">
             <Award className="w-8 h-8 text-green-600 mr-3" />
@@ -175,66 +134,48 @@ export default function PathwaysPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="border-l-4 border-green-500 pl-4">
                   <h4 className="font-semibold text-gray-900">Diploma of Information Technology</h4>
-                  <div className="flex items-center text-sm text-gray-600 mt-1 space-x-4">
-                    <div className="flex items-center">
-                      <Clock className="w-4 h-4 mr-1" />
-                      <span>2 years</span>
-                    </div>
-                    <div className="flex items-center">
-                      <DollarSign className="w-4 h-4 mr-1" />
-                      <span>$8,500/year</span>
-                    </div>
+                  <div className="text-sm text-gray-600 mt-1">
+                    <span>2 years • $8,500/year</span>
                   </div>
-                  <div className="mt-2 flex flex-wrap gap-2">
-                    <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded">Programming</span>
-                    <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded">Web Development</span>
-                    <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded">Network Security</span>
+                  <div className="mt-2 text-xs text-green-700">
+                    Programming • Web Development • Network Security
                   </div>
                   <div className="mt-3 text-sm text-green-600">
-                    ✓ 120 hours industry placement ✓ University pathway available
+                    120 hours industry placement • University pathway available
                   </div>
                 </div>
 
                 <div className="border-l-4 border-orange-500 pl-4">
                   <h4 className="font-semibold text-gray-900">Certificate IV in Cyber Security</h4>
-                  <div className="flex items-center text-sm text-gray-600 mt-1 space-x-4">
-                    <div className="flex items-center">
-                      <Clock className="w-4 h-4 mr-1" />
-                      <span>1 year</span>
-                    </div>
-                    <div className="flex items-center">
-                      <DollarSign className="w-4 h-4 mr-1" />
-                      <span>$6,500/year</span>
-                    </div>
+                  <div className="text-sm text-gray-600 mt-1">
+                    <span>1 year • $6,500/year</span>
                   </div>
-                  <div className="mt-2 flex flex-wrap gap-2">
-                    <span className="text-xs bg-orange-100 text-orange-700 px-2 py-1 rounded">Network Security</span>
-                    <span className="text-xs bg-orange-100 text-orange-700 px-2 py-1 rounded">Incident Response</span>
-                    <span className="text-xs bg-orange-100 text-orange-700 px-2 py-1 rounded">Risk Assessment</span>
+                  <div className="mt-2 text-xs text-orange-700">
+                    Network Security • Incident Response • Risk Assessment
                   </div>
                   <div className="mt-3 text-sm text-orange-600">
-                    ✓ Fast entry to high-demand field ✓ 80 hours workplace learning
+                    Fast entry to high-demand field • 80 hours workplace learning
                   </div>
                 </div>
               </div>
 
               <div className="mt-6 pt-4 border-t">
-                <div className="flex justify-between items-center">
-                  <div>
-                    <div className="text-sm text-gray-600">Contact: 131 601</div>
-                    <div className="text-sm text-green-600">✓ Lower cost than university ✓ Faster entry to workforce</div>
-                  </div>
-                  <a href="https://www.tafensw.edu.au" target="_blank" rel="noopener noreferrer"
-                     className="text-green-600 hover:text-green-700 flex items-center text-sm">
-                    Visit Website <ExternalLink className="w-4 h-4 ml-1" />
-                  </a>
-                </div>
+                <div className="text-sm text-gray-600 mb-2">Contact: 131 601</div>
+                <div className="text-sm text-green-600 mb-3">Lower cost than university • Faster entry to workforce</div>
+                <a 
+                  href="https://www.tafensw.edu.au" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-green-600 hover:text-green-700 flex items-center text-sm"
+                >
+                  Visit Website
+                  <ExternalLink className="w-4 h-4 ml-1" />
+                </a>
               </div>
             </div>
           </div>
         </div>
 
-        {/* Key Information */}
         <div className="mb-12 bg-blue-50 rounded-xl p-6 border border-blue-200">
           <h3 className="text-lg font-semibold text-blue-900 mb-4">Understanding Your Options</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
@@ -255,13 +196,12 @@ export default function PathwaysPage() {
               </p>
               <h4 className="font-medium text-blue-800 mb-2">Alternative Entry</h4>
               <p className="text-blue-700">
-                Don't meet ATAR requirements? TAFE qualifications, portfolios, or bridging courses can get you in.
+                Do not meet ATAR requirements? TAFE qualifications, portfolios, or bridging courses can get you in.
               </p>
             </div>
           </div>
         </div>
 
-        {/* Call to Action */}
         <div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-xl p-8 text-center text-white">
           <h3 className="text-2xl font-bold mb-4">Ready to Choose Your Path?</h3>
           <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
